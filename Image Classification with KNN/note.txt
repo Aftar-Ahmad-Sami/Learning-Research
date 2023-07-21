@@ -1,0 +1,5 @@
+KNN is never used in Image Classification because
+
+1. It is slow. Complexity of Training is O(1) and prediction is O(n)
+2. Distance metrics is not informative especially L2 (Euclidean) distance for similar distorted images as it may be same for all cases.
+3. Curse of Dimensionality because for every k-nearest neighbour classifier of n dimensions we would need exponention of 4^n space of densely populated points in training example
