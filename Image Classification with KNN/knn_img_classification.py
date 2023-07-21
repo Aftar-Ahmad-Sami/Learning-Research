@@ -1,3 +1,5 @@
+# Dataset: https://www.kaggle.com/datasets/samuelcortinhas/cats-and-dogs-image-classification
+
 import cv2
 import numpy as np
 import os
